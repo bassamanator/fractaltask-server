@@ -15,7 +15,6 @@ const server = http.createServer((req, res) => {
 			let ver = pData.substr(pData.length - 1, 1);
 			pData = pData.substr(0, pData.length - 1)+'\n';
 			let fn = logFileName(pData, ver);
-			console.log(pData);
 			console.log(fn);
 			fs.writeFile(path.join(__dirname, 'logs', fn), pData, (err) => {
 				if (err) throw err;
