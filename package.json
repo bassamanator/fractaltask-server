@@ -1,6 +1,6 @@
 {
   "name": "showfractal-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Save fractal task logs to server.",
   "main": "index.js",
   "scripts": {
