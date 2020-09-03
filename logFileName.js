@@ -1,3 +1,4 @@
+const shortid = require('shortid');
 module.exports = function getFileName(d, v) {
 	let fn = "";
 	if (v === "@") {

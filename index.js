@@ -2,7 +2,7 @@ const PORT = 3011;
 const path = require('path');
 const fs = require('fs');
 const http = require('http');
-const shortid = require('shortid');
+
 const logFileName = require('./logFileName.js');
 
 const server = http.createServer((req, res) => {
