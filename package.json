@@ -13,5 +13,7 @@
   "dependencies": {
     "shortid": "^2.2.15"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint": "^7.8.1"
+  }
 }
